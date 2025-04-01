@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "aplicativo-adocao-animais",
+          "appId": "1:1062863828687:android:5b02ef5d60af3d044c69ba",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "aplicativo-adocao-animais",
+          "configurations": {
+            "android": "1:1062863828687:android:5b02ef5d60af3d044c69ba",
+            "ios": "1:1062863828687:ios:43e58935d8c0948b4c69ba",
+            "macos": "1:1062863828687:ios:43e58935d8c0948b4c69ba",
+            "web": "1:1062863828687:web:c5f059b3b40fd8114c69ba",
+            "windows": "1:1062863828687:web:9f286d3e04ad53804c69ba"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

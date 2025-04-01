@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1062863828687",
+    "project_id": "aplicativo-adocao-animais",
+    "storage_bucket": "aplicativo-adocao-animais.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1062863828687:android:5b02ef5d60af3d044c69ba",
+        "android_client_info": {
+          "package_name": "com.example.educacenter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmesXWsic-_43_RvsK-gBb47JbJhTrrc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
